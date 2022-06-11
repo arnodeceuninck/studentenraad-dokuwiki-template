@@ -1,7 +1,7 @@
-base     dokuwiki
-author   Anika Henke
-email    anika@selfthinker.org
-date     2015-07-26
-name     DokuWiki Template
-desc     DokuWiki's default template since 2012
+base     studentenraad
+author   Arno Deceuninck
+email    arno.deceuninck@student.uantwerpen.be
+date     2022-06-11
+name     Studentenraad Template
+desc     Studentenraad Template based on DokuWiki default template and UAntwerp Word template
 url      http://www.dokuwiki.org/template:dokuwiki

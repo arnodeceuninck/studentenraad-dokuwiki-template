@@ -19,8 +19,14 @@ body {
     margin: 0;
     padding: 0;
 }
+
+@font-face {
+    font-family: itc-officina-sans-pro;
+    src: url("ITC-Officina-Sans-Std-Book-Font.otf");
+}
 body {
-    font: normal 87.5%/1.4 Arial, sans-serif;
+    //font: normal 87.5%/1.4 Arial, sans-serif;
+    font-family: itc-officina-sans-pro,Helvetica,Arial,sans-serif;
     /* default font size: 100% => 16px; 93.75% => 15px; 87.5% => 14px; 81.25% => 13px; 75% => 12px */
     -webkit-text-size-adjust: 100%;
 }
@@ -43,6 +49,7 @@ h4,
 h5,
 h6 {
     font-weight: bold;
+    font-family: itc-officina-sans-pro,Helvetica,Arial,sans-serif;
     padding: 0;
     line-height: 1.2;
     clear: left; /* ideally 'both', but problems with toc */
@@ -56,7 +63,7 @@ h6 {
     clear: right;
 }
 
-/* original from DokuWiki template
+// original from DokuWiki template
 h1 {
     font-size: 2em;
     margin: 0 0 0.444em;
@@ -81,11 +88,12 @@ h6 {
     font-size: .75em;
     margin: 0 0 1.333em;
 }
-*/
+
 
 
 /* HTML header formatting based on UAntwerpen Word template */
 /* Every header level shifted one down (increased number) to make title formatting h1 */
+/*
 h1
     {font-size:24.0pt;
 	font-family:"Calibri",sans-serif;
@@ -127,6 +135,9 @@ h6
 	font-family:"Calibri",sans-serif;
 	color:#002E65;
 	font-weight:normal;}
+
+*/
+
 
 /* bottom margin = 1 / font-size */
 
